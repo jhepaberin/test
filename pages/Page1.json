@@ -8,7 +8,7 @@
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
+          "rightColumn": 1296,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
@@ -140,12 +140,37 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false
+            },
+            {
+              "backgroundColor": "#F86A2B",
+              "widgetName": "AudioRecorder1",
+              "rightColumn": 25,
+              "displayName": "Audio Recorder",
+              "iconSVG": "/static/media/icon.3cb03cd8.svg",
+              "widgetId": "f6fxbe5bx5",
+              "topRow": 3,
+              "bottomRow": 11,
+              "parentRowSpace": 10,
+              "isVisible": true,
+              "type": "AUDIO_RECORDER_WIDGET",
+              "version": 1,
+              "hideCard": false,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "animateLoading": true,
+              "parentColumnSpace": 20.0625,
+              "leftColumn": 9,
+              "iconColor": "white",
+              "isDisabled": false,
+              "key": "vicpg2d2h9"
             }
           ]
         },
         "layoutOnLoadActions": [],
         "widgetNames": [
           "Audio1",
+          "AudioRecorder1",
           "Checkbox1",
           "CheckboxGroup1",
           "Divider1",
